@@ -1,0 +1,70 @@
+UXTerm*faceName: Terminus:pixelsize=20
+
+!UXTerm*faceSize:    15
+!UXTerm*background:  black
+!UXTerm*background:   grey9
+!UXTerm*foreground:  LightYellow3
+!UXTerm*scrollBar:   false
+!UXTerm*SaveLines:   10000
+UXTerm*color1:  rgb:82/62/61
+!UXTerm*color2:  rgb:12/91/4e
+!UXTerm*color3:  rgb:a0/a0/70
+!UXTerm*color4:  rgb:50/65/a0
+!UXTerm*color5:  rgb:a0/70/b0
+UXTerm*color6:  rgb:70/a0/a0
+!UXTerm*color7:  rgb:a0/a0/a0
+UXTerm*color8:  rgb:60/60/60
+UXTerm*color9:  rgb:d2/92/62
+!UXTerm*color10: rgb:12/a1/4e
+UXTerm*color11: rgb:c0/c0/90
+!UXTerm*color12: rgb:5e/65/f0
+!UXTerm*color13: rgb:c0/90/c0
+UXTerm*color14: rgb:90/c0/c0
+!UXTerm*color15: rgb:ff/ff/ff
+!UXTerm*cursorColor:white
+
+!URxvt*font: xft:Terminus:pixelsize=28
+Urxvt.font:              xft:profont:pixelsize=17
+!urxvt*transparent: true
+!urxvt*shading: 20
+!urxvt*fading: 20
+URxvt*scrollBar: false
+URxvt*saveLines: 5000
+URxvt*pointerBlink: true
+
+URxvt*foreground:white
+URxvt*background:black
+URxvt*color1:  rgb:82/62/61
+URxvt*color2:  rgb:12/91/4e
+URxvt*color3:  rgb:a0/a0/70
+URxvt*color4:  rgb:30/45/81
+URxvt*color5:  rgb:a0/70/a0
+URxvt*color6:  rgb:70/a0/a0
+URxvt*color7:  rgb:a0/a0/a0
+URxvt*color8:  rgb:60/60/60
+URxvt*color9:  rgb:d2/92/62
+URxvt*color10: rgb:12/a1/4e
+URxvt*color11: rgb:c0/c0/90
+URxvt*color12: rgb:3e/45/81
+URxvt*color13: rgb:c0/90/c0
+URxvt*color14: rgb:90/c0/c0
+URxvt*color15: rgb:ff/ff/ff
+
+UXTerm*background: rgb:33/33/33
+UXTerm*foreground: rgb:ff/ff/ff
+UXTerm*color0:     rgb:33/33/33
+!UXTerm*color8:     rgb:33/33/33
+!UXTerm*color1:     rgb:ff/a0/a0
+!UXTerm*color9:     rgb:ff/a0/a0
+UXTerm*color2:     rgb:98/fb/98
+UXTerm*color10:    rgb:9a/cd/32
+UXTerm*color3:     rgb:f0/e6/8c
+!UXTerm*color11:    rgb:f0/e6/8c
+UXTerm*color4:     rgb:87/ce/eb
+UXTerm*color12:    rgb:87/ce/eb
+UXTerm*color5:     rgb:ff/a0/a0
+UXTerm*color13:    rgb:ff/a0/a0
+!UXTerm*color6:     rgb:87/ce/eb
+!UXTerm*color14:    rgb:87/ce/eb
+UXTerm*color7:     rgb:ff/ff/ff
+UXTerm*color15:    rgb:ff/ff/ff
