@@ -1,7 +1,7 @@
 alignment br
 draw_borders false
 draw_shades false
-gap_x 10
+gap_x 140
 gap_y -1
 update_interval 5
 use_xft true
