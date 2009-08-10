@@ -22,12 +22,12 @@ shopt -u promptvars
 export HISTSIZE=500000
 export HISTFILESIZE=600000
 export PATH=$PATH:~/bin
-export EDITOR="nano"
+export EDITOR="vim"
 alias shrc='. ~/.bashrc && clear'
 export PAGER="most"
 complete -d cd 
 complete -c which man whatis killall sudo
-
+set -o vi
 
 #  Navigation
 alias ,='cd -'
