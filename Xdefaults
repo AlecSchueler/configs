@@ -6,20 +6,20 @@ UXTerm*faceName: Terminus:pixelsize=20
 !UXTerm*foreground:  LightYellow3
 !UXTerm*scrollBar:   false
 !UXTerm*SaveLines:   10000
-UXTerm*color1:  rgb:82/62/61
+!UXTerm*color1:  rgb:82/62/61
 !UXTerm*color2:  rgb:12/91/4e
 !UXTerm*color3:  rgb:a0/a0/70
 !UXTerm*color4:  rgb:50/65/a0
 !UXTerm*color5:  rgb:a0/70/b0
-UXTerm*color6:  rgb:70/a0/a0
+!UXTerm*color6:  rgb:70/a0/a0
 !UXTerm*color7:  rgb:a0/a0/a0
-UXTerm*color8:  rgb:60/60/60
-UXTerm*color9:  rgb:d2/92/62
+!UXTerm*color8:  rgb:60/60/60
+!UXTerm*color9:  rgb:d2/92/62
 !UXTerm*color10: rgb:12/a1/4e
-UXTerm*color11: rgb:c0/c0/90
+!UXTerm*color11: rgb:c0/c0/90
 !UXTerm*color12: rgb:5e/65/f0
 !UXTerm*color13: rgb:c0/90/c0
-UXTerm*color14: rgb:90/c0/c0
+!UXTerm*color14: rgb:90/c0/c0
 !UXTerm*color15: rgb:ff/ff/ff
 !UXTerm*cursorColor:white
 
@@ -34,37 +34,94 @@ URxvt*pointerBlink: true
 
 URxvt*foreground:white
 URxvt*background:black
-URxvt*color1:  rgb:82/62/61
-URxvt*color2:  rgb:12/91/4e
-URxvt*color3:  rgb:a0/a0/70
-URxvt*color4:  rgb:30/45/81
-URxvt*color5:  rgb:a0/70/a0
-URxvt*color6:  rgb:70/a0/a0
-URxvt*color7:  rgb:a0/a0/a0
-URxvt*color8:  rgb:60/60/60
-URxvt*color9:  rgb:d2/92/62
-URxvt*color10: rgb:12/a1/4e
-URxvt*color11: rgb:c0/c0/90
-URxvt*color12: rgb:3e/45/81
-URxvt*color13: rgb:c0/90/c0
-URxvt*color14: rgb:90/c0/c0
-URxvt*color15: rgb:ff/ff/ff
+!URxvt*color1:  rgb:82/62/61
+!URxvt*color2:  rgb:12/91/4e
+!URxvt*color3:  rgb:a0/a0/70
+!URxvt*color4:  rgb:30/45/81
+!URxvt*color5:  rgb:a0/70/a0
+!URxvt*color6:  rgb:70/a0/a0
+!URxvt*color7:  rgb:a0/a0/a0
+!URxvt*color8:  rgb:60/60/60
+!URxvt*color9:  rgb:d2/92/62
+!URxvt*color10: rgb:12/a1/4e
+!URxvt*color11: rgb:c0/c0/90
+!URxvt*color12: rgb:3e/45/81
+!URxvt*color13: rgb:c0/90/c0
+!URxvt*color14: rgb:90/c0/c0
+!URxvt*color15: rgb:ff/ff/ff
 
-UXTerm*background: rgb:33/33/33
+UXTerm*background: rgb:00/00/00
 UXTerm*foreground: rgb:ff/ff/ff
-UXTerm*color0:     rgb:33/33/33
+!UXTerm*color0:     rgb:33/33/33
 !UXTerm*color8:     rgb:33/33/33
 !UXTerm*color1:     rgb:ff/a0/a0
 !UXTerm*color9:     rgb:ff/a0/a0
-UXTerm*color2:     rgb:98/fb/98
-UXTerm*color10:    rgb:ff/fd/32
-UXTerm*color3:     rgb:f0/e6/8c
+!UXTerm*color2:     rgb:98/fb/98
+!UXTerm*color10:    rgb:ff/fd/32
+!UXTerm*color3:     rgb:f0/e6/8c
 !UXTerm*color11:    rgb:f0/e6/8c
-UXTerm*color4:     rgb:87/ce/eb
-UXTerm*color12:    rgb:87/ce/eb
-UXTerm*color5:     rgb:ff/a0/a0
-UXTerm*color13:    rgb:ff/a0/a0
+!UXTerm*color4:     rgb:87/ce/eb
+!UXTerm*color12:    rgb:87/ce/eb
+!UXTerm*color5:     rgb:ff/a0/a0
+!UXTerm*color13:    rgb:ff/a0/a0
 !UXTerm*color6:     rgb:87/ce/eb
 !UXTerm*color14:    rgb:87/ce/eb
-UXTerm*color7:     rgb:ff/ff/ff
-UXTerm*color15:    rgb:ff/ff/ff
+!UXTerm*color7:     rgb:ff/ff/ff
+!UXTerm*color15:    rgb:ff/ff/ff
+
+
+Xft.dpi:                    96
+Xft.antialias:           true
+Xft.hinting:             slight
+Xft.hintstyle:           hintslight
+Xft.rgba:                  rgb
+
+*color0:     #262729
+*color8:     #554444
+ 
+!red
+*color1:    #F92672
+*color9:    #FF669D
+!green
+*color2:    #A6E22E
+*color10:   #BEED5F
+!yellow
+*color3:    #FD971F
+*color11:   #E6DB74
+!blue
+*color4:    #66D9EF
+*color12:   #66D9EF
+!magenta
+*color5:    #9E6FFE
+*color13:   #9E6FFE
+!cyan
+*color6:    #5E7175
+*color14:   #A3BABF
+!white
+*color7:    #CCCCC6
+*color15:   #F8F8F2
+
+UXTerm*color0:     #262729
+UXTerm*color8:     #554444
+ 
+!red
+UXTerm*color1:    #F92672
+UXTerm*color9:    #FF669D
+!green
+UXTerm*color2:    #A6E22E
+UXTerm*color10:   #BEED5F
+!yellow
+UXTerm*color3:    #FD971F
+UXTerm*color11:   #E6DB74
+!blue
+UXTerm*color4:    #66D9EF
+UXTerm*color12:   #66D9EF
+!magenta
+UXTerm*color5:    #9E6FFE
+UXTerm*color13:   #9E6FFE
+!cyan
+UXTerm*color6:    #5E7175
+UXTerm*color14:   #A3BABF
+!white
+UXTErm*color7:    #CCCCC6
+UXTerm*color15:   #F8F8F2

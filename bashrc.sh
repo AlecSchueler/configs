@@ -111,3 +111,4 @@ alias oython='python'
 alias greo='grep'
 
 alias mp='sudo modprobe acpi-cpufreq;sudo cpufreq-set -g ondemand'
+alias keys='xset r rate 150 20;setxkbmap gb'

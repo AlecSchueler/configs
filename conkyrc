@@ -7,4 +7,4 @@ update_interval 5
 use_xft true
 font dina:pixelsize=8.6
 TEXT 
-${color #FF4D79}CPU temperature: ${color #eee}$acpitemp°   ${color #FF4D79}Battery state: ${color #eee}$battery ${color #FF4D79}  Comment karma: ${color #eee}${execi 3600 python /home/john/docs/programming/python/comment_larma.py}   ${color FF4D79}Disk space: ${color #eee}${fs_free_perc /home}%   $if_mpd_playing${color #FF4D79}MPD: ${color #fff}$mpd_status ${color 555}... ${color #eee}$mpd_artist ${color #777}- ${color #eee}$mpd_album $endif${color #FF4D79}Time: ${color #eee}${time %H:%M}
+${color #F1EC6E}CPU temperature: ${color #eee}$acpitemp°   ${color #F1EC6E}Battery state: ${color #eee}$battery ${color #F1EC6E}  Comment karma: ${color #eee}${execi 3600 python /home/john/docs/programming/python/comment_larma.py}   ${color #F1EC6E}Disk space: ${color #eee}${fs_free_perc /home}%   $if_mpd_playing${color #F1EC6E}MPD: ${color #fff}$mpd_status ${color 555}... ${color #eee}$mpd_artist ${color #777}- ${color #eee}$mpd_album $endif${color #F1EC6E}Time: ${color #eee}${time %H:%M}
