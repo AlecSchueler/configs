@@ -29,8 +29,6 @@ set -o vi
 
 #  Navigation
 alias cd..='cd ..'
-alias cd../..='cd ../..'
-alias cd../../..='cd ../../..'
 alias cd-='cd -'
 
 alias pu='pushd'
@@ -45,9 +43,9 @@ function mkcd() { mkdir -p -v "$1"; cd "$1"; }
 
 alias ls='ls --color=au -w 50'
 alias ll='ls -lArh --color=au'
-alias lsd='ls --color -d  */'
 alias la='ls --color=au -A'
 alias lsf='lf -f'
+function lsd(){ ls -d $1*/; }
 
 alias big='du --max-depth=1 | sort -nr | head'
 
@@ -63,14 +61,21 @@ function goog() {
   "$OPERA $url" >> /dev/null &
   }
 function etym(){
-    url="http://www.etymonline.com/index.php?term=$1"
-    curl -s $url | grep "<dd " | sed 's/<[^>]*>//g' | fold -sw 79
+    for term in "$@"
+    do
+        url="http://www.etymonline.com/index.php?term=$term"
+        curl -s $url | grep "<dd " | sed 's/<[^>]*>//g' | fold -sw 79
+        echo
+    done
     }
 function thes(){
-    str="$1";
-    curl -s "onlinethesaurus.co.uk/reference/thesaurus.jsp?q=$str" |
-        grep -Po "[0-9]* words for \"$str\".*?<"  | sed  's/<//g'  |
-        fold -sw 79
+    for term in "$@" 
+    do
+        curl -s "onlinethesaurus.co.uk/reference/thesaurus.jsp?q=$term" |
+            grep -Po "[0-9]* words for \"$term\".*?<"  |  sed  's/<//g' |
+            fold -sw 79
+        echo
+    done
     }
 
 #  Media
