@@ -1,15 +1,25 @@
 set expandtab
+set autoindent
+set smartindent
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4 " makes the spaces feel like real tabs
-
+ 
 set wrapscan " search wraps at eof
-
+set hlsearch " highlight all search results
+set ignorecase 
+ 
 set number
-set numberwidth=1
+set numberwidth=4
 
+set wrap
+set lbr
+set textwidth=79
+
+set mouse=a
+
+set clipboard+=unnamed  " yank and copy to X clipboard
+
+map ; :
+ 
 colorscheme ron
-
-let processing_doc_path="hairy/processing-1.0.5/reference/"
-
-map <CR> ji<CR><ESC>
