@@ -45,9 +45,11 @@ alias ls='ls --color=au -w 50'
 alias ll='ls -lArh --color=au'
 alias la='ls --color=au -A'
 alias lsf='lf -f'
+alias l='ls -cr'
 function lsd(){ ls -d $1*/; }
 
 alias big='du --max-depth=1 | sort -nr | head'
+alias duchs='du -chs'
 
 
 #  Internet
@@ -58,7 +60,7 @@ alias wget='wget -c'
 
 function goog() { 
   url=$(echo google.com/search?q=$(echo "$@" | sed s/\ /+/g)) 
-  "$OPERA $url" >> /dev/null &
+  opera $url > /dev/null &
   }
 function etym(){
     for term in "$@"
@@ -111,8 +113,10 @@ alias sags='apt-cache search'
 alias yag='yaourt'
 alias yagi='yaourt -S'
 alias yagr='yaourt -R'
-alias yagrns='yaourt -Rns'
+alias yagR='yaourt -Rns'
 alias yags='yaourt -Ss'
+
+complete -c sagr sagR yagr yagR
 
 #  Miscellenea
 alias ka='killall'
@@ -127,4 +131,5 @@ alias print='echo'
 alias feg='feh'
 alias oython='python'
 alias greo='grep'
+alias zpdf='xpdf'
 
